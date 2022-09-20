@@ -1,0 +1,119 @@
+:root{
+    --darkblack : #28293E;
+    --bs-nav-pills-link-active-bg: #7e4c18;
+    --content-one : "9";
+    --content-tow : "3";
+    --content-three : "2";
+    --content-four : "3";
+    --content-five : "1";
+}
+footer h2{
+    color: #000 !important;
+}
+footer p{
+    color: #000 !important;
+}
+footer .sochial span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EF6D58;
+    color: #000000 !important;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+footer a{
+        text-decoration: none;
+        color: #000000 !important;
+        transition: .4s ease-in-out;
+}
+footer i{
+        color: #ffffff !important;
+}
+footer{
+    background-color: #FDF0E9 !important;
+}
+.one .nav-pills button{
+    position: relative;
+}
+.one .nav-pills button:nth-child(1):after{
+    content: var(--content-one);
+    position: absolute;
+    top: 0;
+    right: 0px;
+    text-align: center;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    transform: translate(50%,-50%);
+    background-color: #EF6D58;
+    border-radius: 50%;
+}
+.one .nav-pills li:nth-child(2) button:after{
+    content: var(--content-tow);
+    position: absolute;
+    top: 0;
+    right: 0px;
+    text-align: center;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    transform: translate(50%,-50%);
+    background-color: #EF6D58;
+    border-radius: 50%;
+}
+.one .nav-pills li:nth-child(3) button:after{
+    content: var(--content-three);
+    position: absolute;
+    top: 0;
+    right: 0px;
+    text-align: center;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    transform: translate(50%,-50%);
+    background-color: #EF6D58;
+    border-radius: 50%;
+}
+.one .nav-pills li:nth-child(4) button:after{
+    content: var(--content-four);
+    position: absolute;
+    top: 0;
+    right: 0px;
+    text-align: center;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    transform: translate(50%,-50%);
+    background-color: #EF6D58;
+    border-radius: 50%;
+}
+.one .nav-pills li:nth-child(5) button:after{
+    content: var(--content-five);
+    position: absolute;
+    top: 0;
+    right: 0px;
+    text-align: center;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    transform: translate(50%,-50%);
+    background-color: #EF6D58;
+    border-radius: 50%;
+}

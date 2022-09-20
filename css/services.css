@@ -1,0 +1,22 @@
+.span-one-ser{
+    color: #EF6D58;
+}
+.one .container{
+    border-bottom: 1px solid #f5b6ac;
+}
+.tow .container{
+    border-bottom: 1px solid #f5b6ac;
+}
+.load .container{
+    border-bottom: 1px solid #f5b6ac;
+}
+.news-letter .container{
+    border-bottom: 1px solid #f5b6ac;
+}
+.onhov a{
+    transition: 1s;
+    color: black !important;
+}
+.onhov:hover a{
+    color: #7d7d7d !important;
+}

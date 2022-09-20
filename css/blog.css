@@ -1,0 +1,26 @@
+.navss{
+    background-color: #28293E !important;
+}
+main .nav-link {
+    color: rgba(255, 255, 255, 0.55)  !important;
+}
+main .nav-link.nav-link:hover{
+    color: rgba(255, 255, 255, 1) !important;
+}
+ul.blog-1 li::marker{
+    color: #EF6D58;
+}
+ul.blog-2{
+    list-style: decimal;
+}
+.comment{
+    background-color: #F9E5DA;
+}
+.last-p{
+    border-bottom: 1px solid #F3D1BF;
+}
+.article{
+    padding: 0 !important;
+    /* margin: 0 !important; */
+    border-bottom: 1px solid #F3D1BF;
+}

@@ -1,0 +1,66 @@
+.row.services span{
+    color: #EF6D58;
+}
+/* .services .container{
+    border-bottom: 1px solid #F3D1BF;
+} */
+.accordion-item{
+    background-color: transparent;
+    border: none;
+}
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background-color: transparent;
+    box-shadow: initial;
+}
+.accordion-button {
+    background-color: transparent;
+    border: none;
+}
+.accordion-button:focus {
+    outline: none;
+    z-index: 3;
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: initial !important;
+}
+.accordion-button::after {
+    flex-shrink: initial;
+    width: initial;
+    height: initial;
+    margin-left: initial;
+    content: initial;
+    background-image: initial;
+    background-repeat: initial;
+    background-size: initial;
+    transition: initial;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: initial;
+    transform: initial;
+}
+.accordion-item button{
+    border-top: 1px solid #F3D1BF;
+    border-bottom: 1px solid #F3D1BF;
+    border-collapse: separate;
+}
+.accordion-item button i{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EF6D58;
+    color: #fff;
+    border-radius: 50%;
+}
+.list li i{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EF6D58;
+    color: #fff;
+    border-radius: 50%;
+}

@@ -1,0 +1,28 @@
+.one-contact{
+    min-height: 70vh;
+    background-image: url(../img/Our-BLOG/Group\ 11.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one-contact button{
+    background-color: #EF6D58;
+    color: #fff;
+}
+.faq{
+    background-color: #FDF0E9 !important;
+}
+.faq .container{
+    border-bottom: 1px solid #F3D1BF;
+}
+.faq .tab{
+    border: 1px solid #F3D1BF;
+    border-collapse: separate;
+}
+footer .content-bottom-footer {
+    padding: 20px 0;
+    border-top: 1px #F3D1BF solid;
+}
+footer .content-bottom-footer span{
+    color: #391400;
+}

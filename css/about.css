@@ -1,0 +1,61 @@
+:root{
+    --darkblack : #28293E;
+    --bs-nav-pills-link-active-bg: #7e4c18;
+}
+header{
+    min-height: 50vh !important;
+}
+.content{
+    width: fit-content;
+}
+.content span{
+    width: fit-content;
+    /* background-color: aquamarine; */
+}
+.content h2{
+    width: fit-content;
+}
+.sse{
+    background-image: url(../img/img/about/Shape.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+@media (min-width: 576px) { 
+    .content{
+        width: 100% !important;
+    }
+    footer>.container>.row:first-child{
+        width: 75%;
+        
+    }
+}
+@media (min-width: 768px) { 
+    .content{
+        width: 50% !important;
+    }
+    footer>.container>.row:first-child{
+        width: 100%;
+    }
+}
+.po{
+    bottom: 40px !important;
+    left: 15% !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #28293eea
+}
+main .nav-link {
+    color: rgb(0, 0, 0) !important;
+}
+main .nav-link.nav-link.active {
+    color: rgb(255, 255, 255) !important;
+}
+.hero__2{
+    color: #fff;
+    background-color:#EF6D58;
+}
+
+
+

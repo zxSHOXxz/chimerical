@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --darkblack : #28293E;
+    --bs-nav-pills-link-active-bg: #7e4c18;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    scroll-behavior: smooth;
+}
+.navbar.navbar-expand-lg.navbar-dark{
+    background-color: transparent;
+}
+header{
+    background-color: var(--darkblack);
+    min-height: 100vh;
+}
